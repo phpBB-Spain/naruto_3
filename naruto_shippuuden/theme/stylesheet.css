@@ -1,0 +1,13 @@
+/*  phpBB3 Style Sheet
+    --------------------------------------------------------------
+	Style name:			naruto_shippuuden
+	Based on style:		prosilver (the default phpBB 3.3.x style)
+	Original author:	Tom Beddard ( http://www.subblue.com/ )
+	Modified by:		CoSa NoStrA DeSiGn ( http://www.cosa-nostra-design.com/ )
+	Ported by:			phpBB Spain ( https://www.phpbb-es.com )	
+    --------------------------------------------------------------
+*/
+
+@import url("common.css?v=3.3");
+@import url("colours.css?v=3.3");
+@import url("naruto_adds.css?v=3.3");

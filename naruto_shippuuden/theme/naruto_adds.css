@@ -1,0 +1,453 @@
+/* Naruto CSS - Menu */
+
+.sitename-header {
+    border-radius: 4px;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial Narrow, Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    padding-top: 5px;
+}
+
+#menubar {
+	height: 35px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: #DA0000;
+	border-radius: 0px;
+}
+
+#menubar > div {
+	margin: 0 auto;
+	max-width: 991px;
+}
+
+#menubar ul {
+	margin: 0;
+	padding-left: 0px;
+}
+
+#menubar li {
+	margin: 0;
+	padding: 0px;
+	padding-right: 1px;
+	line-height: 0px;
+	list-style-type: none;
+}
+
+#menubar li a {
+	display: block;
+	float: left;
+	color: #ccc;
+	text-decoration: none;
+	padding: 16px 23px 13px;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Arial Narrow, Arial, Helvetica, sans-serif;
+}
+
+#menubar li a:hover, #menubar li:hover a, #menubar li.sfhover a {
+	color: #ddd;
+}
+
+#menubar li.chosen a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+/* Naruto CSS - Main blocks */
+
+#wrap {
+	margin: 0 auto;
+    border: 5px solid #DA0000;
+	border-radius: 0px;
+	min-width: 230px;
+	max-width: 937px;
+	padding: 0px;
+}
+
+#simple-wrap {
+	padding: 6px 10px;
+}
+
+#page-header {
+	clear: both;
+	background: url(./images/header.jpg) no-repeat 0 0;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	height: 100%;
+    width: 100%;
+}
+
+#page-body {
+	margin: 4px 4px 0 4px;
+	clear: both;
+}
+
+#page-footer {
+	clear: both;
+	background: url(./images/footer.gif) no-repeat 0 100%;
+	height: 350px;
+	margin: 0;
+}
+
+#page-footer h3 {
+	margin-top: 20px;
+}
+
+#site-description {
+    margin-top: 100px;
+    float: left;
+}
+
+.site_logo {
+    background-image: url(./images/site_logo.png);
+    display: inline-block;
+    width: 200px;
+    height: 95px;
+}
+
+#logo {
+    float: left;
+    margin-bottom: 0px;
+    width: auto;
+    padding: 100px 10px 0 10px;
+}
+
+a#logo:hover {
+	text-decoration: none;
+}
+
+/* Specifics Naruto CSS */
+
+.smally {
+	letter-spacing: -0.1em;
+}
+
+ul.smally {
+	letter-spacing: -0.1em;
+	padding-top: 2px; 
+	margin-top: 2px;
+}
+
+.search-header {
+    box-shadow: 0 0 10px #DA0000;
+}
+
+/* Jumpbox */
+.jumpbox .dropdown li {
+	border-top-color: #CCCCCC;
+}
+
+.jumpbox-cat-link {
+	background-color: #DA0000;
+	border-top-color: #DA0000;
+	color: #FFFFFF;
+}
+
+.jumpbox-cat-link:hover {
+	background-color: #DA0000;
+	border-top-color: #DA0000;
+	color: #FFFFFF;
+}
+
+.jumpbox-forum-link {
+	background-color: #FFFFFF;
+}
+
+.jumpbox-forum-link:hover {
+	background-color: #FFFFFF;
+}
+
+.jumpbox .dropdown .pointer-inner {
+	border-color: #FFFFFF transparent;
+}
+
+.jumpbox-sub-link {
+	background-color: #FFFFFF;
+}
+
+.jumpbox-sub-link:hover {
+	background-color: #DA0000;
+	color: #FFFFFF;
+}
+
+/* Pagination */
+
+.pagination li a {
+	background: #F9C56F;
+	filter: none;
+	border-color: #EB660C;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	color: #5C758C;
+}
+
+.pagination li.ellipsis span {
+	background: transparent;
+	color: #000000;
+}
+
+.pagination li.active span {
+	background: #DA0000;
+	border-color: #DA0000;
+	color: #FFFFFF;
+}
+
+.pagination li a:hover, .pagination li a:hover .icon, .pagination .dropdown-visible a.dropdown-trigger, .nojs .pagination .dropdown-container:hover a.dropdown-trigger {
+	background: #DA0000;
+	border-color: #EB660C;
+	filter: none;
+	color: #FFFFFF;
+	text-shadow: none;
+}
+
+/* Naruto CSS - Buttons */
+
+.narutolink {
+	color: #FFFFFF;
+}
+
+.button {
+	display: inline-block;
+	padding: 2px 8px;
+	font-size: 13px;
+	font-weight: 600;
+	font-family: bebasregular, "Open Sans", "Droid Sans", Verdana, Arial, Helvetica;
+	line-height: 1.4;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	    touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+	border: 1px solid transparent;
+}
+
+.button:focus,
+.button:hover {
+ 	text-decoration: none;
+ 	outline: none;
+}
+
+.caret {
+	border-left: 1px solid;
+	position: relative;
+	right: -6px;
+}
+
+.caret i {
+	vertical-align: top;
+}
+
+.button {
+    background-image: linear-gradient(to bottom, #D60000 0%,#D60000 100%);
+	-webkit-box-shadow: 0 0 0 1px #D60000 inset;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D60000', endColorstr='#D60000',GradientType=0 );
+    border: 1px solid #D60000;
+	color: #FFFFFF;
+}
+
+.button:hover, .button:focus {
+	color: #D60000;
+	background-color: #000;
+	border-color: #B8637A;
+}
+
+.button:active {
+	color:#000;
+	background-color:#000000;
+}
+
+.button .icon,
+.button-secondary {
+	color: #fff;
+}
+
+.button-secondary:focus,
+.button-secondary:hover,
+.button:focus .icon,
+.button:hover .icon {
+	color: #000;
+}
+
+.button-search:hover,
+.button-search-end:hover {
+	border-color: #C7C3BF;
+}
+
+.caret	{ border-color: #DADADA; }
+.caret	{ border-color: #C7C3BF; }
+
+.contact-icons a		{ border-color: #DCDCDC; }
+.contact-icons a:hover	{ background-color: #FEC000; }
+
+/* Naruto CSS - Folder icons style */
+.global_read					{ background-image: url("./images/icons/announce_read.png"); }
+.global_read_mine				{ background-image: url("./images/icons/announce_read_mine.png"); }
+.global_read_locked				{ background-image: url("./images/icons/announce_read_locked.png"); }
+.global_read_locked_mine		{ background-image: url("./images/icons/announce_read_locked_mine.png"); }
+.global_unread					{ background-image: url("./images/icons/announce_unread.png"); }
+.global_unread_mine				{ background-image: url("./images/icons/announce_unread_mine.png"); }
+.global_unread_locked			{ background-image: url("./images/icons/announce_unread_locked.png"); }
+.global_unread_locked_mine		{ background-image: url("./images/icons/announce_unread_locked_mine.png"); }
+
+.announce_read					{ background-image: url("./images/icons/announce_read.png"); }
+.announce_read_mine				{ background-image: url("./images/icons/announce_read_mine.png"); }
+.announce_read_locked			{ background-image: url("./images/icons/announce_read_locked.png"); }
+.announce_read_locked_mine		{ background-image: url("./images/icons/announce_read_locked_mine.png"); }
+.announce_unread				{ background-image: url("./images/icons/announce_unread.png"); }
+.announce_unread_mine			{ background-image: url("./images/icons/announce_unread_mine.png"); }
+.announce_unread_locked			{ background-image: url("./images/icons/announce_unread_locked.png"); }
+.announce_unread_locked_mine	{ background-image: url("./images/icons/announce_unread_locked_mine.png"); }
+
+.forum_link					{ background-image: url("./images/icons/forum_link.png"); }
+.forum_read					{ background-image: url("./images/icons/forum_read.png"); }
+.forum_read_locked			{ background-image: url("./images/icons/forum_read_locked.png"); }
+.forum_read_subforum		{ background-image: url("./images/icons/forum_read_subforum.png"); }
+.forum_unread				{ background-image: url("./images/icons/forum_unread.png"); }
+.forum_unread_locked		{ background-image: url("./images/icons/forum_unread_locked.png"); }
+.forum_unread_subforum		{ background-image: url("./images/icons/forum_unread_subforum.png"); }
+
+.sticky_read				{ background-image: url("./images/icons/sticky_read.png"); }
+.sticky_read_mine			{ background-image: url("./images/icons/sticky_read_mine.png"); }
+.sticky_read_locked			{ background-image: url("./images/icons/sticky_read_locked.png"); }
+.sticky_read_locked_mine	{ background-image: url("./images/icons/sticky_read_locked_mine.png"); }
+.sticky_unread				{ background-image: url("./images/icons/sticky_unread.png"); }
+.sticky_unread_mine			{ background-image: url("./images/icons/sticky_unread_mine.png"); }
+.sticky_unread_locked		{ background-image: url("./images/icons/sticky_unread_locked.png"); }
+.sticky_unread_locked_mine	{ background-image: url("./images/icons/sticky_unread_locked_mine.png"); }
+
+.topic_moved				{ background-image: url("./images/icons/topic_moved.png"); }
+.topic_read					{ background-image: url("./images/icons/topic_read.png"); }
+.topic_read_mine			{ background-image: url("./images/icons/topic_read_mine.png"); }
+.topic_read_hot				{ background-image: url("./images/icons/topic_read_hot.png"); }
+.topic_read_hot_mine		{ background-image: url("./images/icons/topic_read_hot_mine.png"); }
+.topic_read_locked			{ background-image: url("./images/icons/topic_read_locked.png"); }
+.topic_read_locked_mine		{ background-image: url("./images/icons/topic_read_locked_mine.png"); }
+.topic_unread				{ background-image: url("./images/icons/topic_unread.png"); }
+.topic_unread_mine			{ background-image: url("./images/icons/topic_unread_mine.png"); }
+.topic_unread_hot			{ background-image: url("./images/icons/topic_unread_hot.png"); }
+.topic_unread_hot_mine		{ background-image: url("./images/icons/topic_unread_hot_mine.png"); }
+.topic_unread_locked		{ background-image: url("./images/icons/topic_unread_locked.png"); }
+.topic_unread_locked_mine	{ background-image: url("./images/icons/topic_unread_locked_mine.png"); }
+
+.pm_read					{ background-image: url("./images/icons/topic_read.png"); }
+.pm_unread					{ background-image: url("./images/icons/topic_unread.png"); }
+
+dl.row-item {
+    background-position: 10px 50%;
+    background-repeat: no-repeat;
+    background-size: 27px;
+}
+
+dl.row-item dt .list-inner {
+    padding-left: 45px;
+}
+
+/* Top Button Naruto Shippuuden */
+.back2top .top {
+    float: right;
+    margin-right: -5px;
+    margin-top: 0;
+}
+
+/* Online/Offline status Naruto Shippuuden */
+.online {
+	background-image: url(./images/icons/icon_user_online.gif);
+	background-size: 5px;
+	background-position: 100% 0%;
+    background-repeat: repeat-y;
+}
+
+.offline {
+	background-image: url(./images/icons/icon_user_offline.gif);
+	background-size: 5px;
+	background-position: 100% 0%;
+    background-repeat: repeat-y;
+}
+
+/* Small changes responsive Naruto Shippuuden - START */
+
+@media only screen and (max-width: 700px), only screen and (max-device-width: 700px) {
+	.wrap {
+    border: none;
+    border-radius: 0;
+    margin: 0;
+    min-width: 290px;
+    padding: 0 0;
+	}
+
+	.headerbar, .navbar, .forabg, .forumbg, .post, .panel {
+    border-radius: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+	}
+	.site_logo {
+    background-image: url(./images/site_logo_small.png);
+    display: inline-block;
+    width: 200px;
+    height: 95px;
+	}
+
+	a#logo:hover {
+	text-decoration: none;
+	}
+
+	#logo {
+	text-align: center;
+	width: auto;
+	padding: 10px 13px 0 10px;
+	}
+
+	.logo {
+	/* change display value to inline-block to show logo */
+	display: block;
+	float: none;
+	padding: 10px;
+	}
+
+	.postprofile .avatar img {
+    width: auto !important;
+    height: auto !important;
+    max-height: 46px;
+	}
+
+	#navigation a, .rtl #navigation a {
+    background: #E9E9E9;
+	}
+
+	.has-profile .post-buttons {
+    right: 10px;
+    top: 15px;
+	}
+
+	.online {
+    background-size: 5px;
+	}
+
+	.post {
+	border-radius: 0;
+	margin-left: -3px;
+	margin-right: -4px;
+	}
+
+	.pagination > ul {
+    margin: 0px 0 0;
+	}
+	
+	dl.details dt, dl.details dd {
+    width: auto;
+    float: none;
+    text-align: left;
+	}
+}
+
+/* Small changes responsive Naruto Shippuuden - END */
