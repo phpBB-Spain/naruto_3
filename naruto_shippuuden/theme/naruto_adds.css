@@ -374,6 +374,11 @@ dl.row-item dt .list-inner {
     background-repeat: repeat-y;
 }
 
+.linklist i {
+    color: #000000;
+    text-shadow: 2px 2px 3px #b30047;
+}
+
 /* Small changes responsive Naruto Shippuuden - START */
 
 @media only screen and (max-width: 700px), only screen and (max-device-width: 700px) {
