@@ -310,8 +310,8 @@ a.topictitle:active {
 /* Naruto CSS - Colours and backgrounds for content.css */
 
 ul.forums {
-	background-color: #EEF5F9;
-	background-image: url(./images/gradient.gif);
+    background-color: #ffffff;
+    background-image: none;
 }
 
 ul.topiclist li {
@@ -403,10 +403,6 @@ dl.faq dt {
 blockquote {
 	background-color: #EBEADD;
 	border-color: #DBDBCE;
-}
-
-.rtl blockquote {
-	background-image: url("./images/quote_rtl.gif");
 }
 
 blockquote blockquote {
